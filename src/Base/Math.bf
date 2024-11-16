@@ -36,4 +36,10 @@ public struct Range1<T>
 	}
 }
 
-public struct Range1U64 : Range<uint64>;
+
+
+public struct Range1U64 : Range1<uint64>;
+
+public struct Range2F32 : Range2<float>;
+
+public struct Vec4F32 : Vec4<float>;
