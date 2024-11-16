@@ -19,3 +19,13 @@ static
 		n * 1024 * 1024 * 1024
 	}
 }
+
+public struct TextPt
+{
+	public int64 Line, Column;
+}
+
+public struct TextRng
+{
+	public TextPt Min, Max;
+}
