@@ -1,6 +1,6 @@
 
 using System;
-namespace #ProjectName;
+namespace MhDebugger;
 
 public static class Program
 {

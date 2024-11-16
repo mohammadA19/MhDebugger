@@ -1,6 +1,6 @@
 FileVersion = 1
 
 [Project]
-Name = "#ProjectName"
+Name = "MhDebugger"
 TargetType = "BeefLib"
-StartupObject = "#ProjectName.Program"
+StartupObject = "MhDebugger.Program"
