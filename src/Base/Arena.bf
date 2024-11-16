@@ -90,12 +90,12 @@ public struct Temp : IDisposable
 	public this(Arena arena)
 	{
 		Arena = arena;
-		Pos = 0;
+		Pos = arena.Pos;
 	}
 
 	public void Dispose()
 	{
-
+		Arena.PopTo(Pos);
 	}
 }
 
